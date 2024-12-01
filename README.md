@@ -2,6 +2,10 @@
 
 Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
 
+## Apa itu Reverse Shell TCP
+
+**Reverse Shell adalah teknik di mana target (korban) membuka koneksi ke attacker (penyerang) dan memberikan akses ke shell atau terminal komputer target melalui koneksi tersebut.** Pada teknik ini, koneksi dilakukan menggunakan protokol `TCP`.
+
 ## Instalasi 
 
 ```
