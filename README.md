@@ -1,6 +1,6 @@
 ## Reverse Shell TCP
 
-Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
+Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi TCP menggunakan [netcat](https://nmap.org/ncat/).
 
 ## Apa itu Reverse Shell TCP
 
