@@ -4,7 +4,7 @@ Program [Bash](https://id.m.wikipedia.org/wiki/Bash_(syel_Unix)) sederhana yang 
 
 ## Apa itu Reverse Shell TCP
 
-**Reverse Shell adalah teknik di mana target (korban) membuka koneksi ke attacker (penyerang) dan memberikan akses ke shell atau terminal komputer target melalui koneksi tersebut.** Pada teknik ini, koneksi dilakukan menggunakan protokol `TCP`.
+**Reverse Shell adalah teknik di mana target (korban) membuka koneksi ke attacker (penyerang) dan memberikan akses ke shell atau terminal komputer target melalui koneksi tersebut.** Pada teknik ini, koneksi dilakukan menggunakan protokol TCP.
 
 ## Instalasi 
 
