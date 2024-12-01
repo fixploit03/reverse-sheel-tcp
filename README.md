@@ -10,24 +10,29 @@ apt-get install git
 git clone https://github.com/fixploit03/reverse-shell-tcp/
 cd reverse-shell-tcp
 chmod +x reverse-shell-tcp.sh
-./reverse-shell-tcp.sh
 ```
 
 ## Cara menggunakan
 
-**Penyerang (Attacker)**
+Jalankan script `reverse-shell-tcp.sh` di mesin penyerang untuk menghasilkan dua file: `run.sh` (untuk mendengarkan koneksi) dan `malicious.sh` (untuk korban).
+
+```
+./reverse-shell-tcp.sh
+```
+
+Jalankan `run.sh` di mesin penyerang, 
 
 ```
 ./run.sh
 ```
 
-**Korban (Victim)**
+kemudian kirim dan jalankan `malicious.sh` di mesin korban.
 
 ```
 chmod +x malicious.sh
 ./malicious.sh
 ```
 
-Jalankan script `reverse-shell-tcp.sh` di mesin penyerang untuk menghasilkan dua file: `run.sh` **(untuk mendengarkan koneksi)** dan `malicious.sh` **(untuk korban)**. Jalankan `run.sh` di mesin penyerang, kemudian kirim dan jalankan `malicious.sh` di mesin korban. Koneksi reverse shell akan terbuka, memberi akses ke mesin korban.
+Koneksi reverse shell akan terbuka, memberi akses ke mesin korban.
 
 **Selamat mencoba!**
