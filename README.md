@@ -1,6 +1,6 @@
 ## Reverse Shell TCP
 
-Program [Bash]() sederhana yang dibuat untuk melakukan [reverse shell]() melalui koneksi [TCP](https://www.exabytes.co.id/blog/transmission-control-protocol/) menggunakan [netcat](https://nmap.org/ncat/).
+Program [Bash](https://id.m.wikipedia.org/wiki/Bash_(syel_Unix)) sederhana yang dibuat untuk melakukan [reverse shell]() melalui koneksi [TCP](https://www.exabytes.co.id/blog/transmission-control-protocol/) menggunakan [netcat](https://nmap.org/ncat/).
 
 ## Apa itu Reverse Shell TCP
 
