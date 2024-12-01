@@ -14,3 +14,7 @@ chmod +x reverse-shell-tcp.sh
 ```
 
 ## Cara menggunakan
+
+Jalankan script `reverse-shell-tcp.sh` di mesin penyerang untuk menghasilkan dua file: `run.sh` **(untuk mendengarkan koneksi)** dan `malicious.sh` **(untuk korban)**. Jalankan `run.sh` di mesin penyerang, kemudian kirim dan jalankan `malicious.sh` di mesin korban. Koneksi reverse shell akan terbuka, memberi akses ke mesin korban.
+
+**Selamat mencoba!**
