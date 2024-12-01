@@ -1,6 +1,6 @@
 #!/bin/bash
 # [reverse-shell-tcp.sh]
-# Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
+# Program Bash sederhana yang dirancang untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
 # Dibuat oleh: fixploit03
 # Github: https://github.com/fixploit03/reverse-shell-tcp
 
@@ -49,7 +49,7 @@ done
 # Membuat skrip yang akan dijalankan di mesin penyerang (Attacker)
 cat <<EOF > "${file_attacker}"
 # [run.sh]
-# Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
+# Program Bash sederhana yang dirancang untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
 # Dibuat oleh: fixploit03
 # Github: https://github.com/fixploit03/reverse-shell-tcp
 
