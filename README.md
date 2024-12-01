@@ -8,6 +8,8 @@ Program [Bash](https://id.m.wikipedia.org/wiki/Bash_(syel_Unix)) sederhana yang 
 
 ## Instalasi 
 
+> Pastikan Anda sudah berada dalam mode superuser (root) sebelum memulai proses instalasi.
+
 ```
 apt-get update
 apt-get install netcat
