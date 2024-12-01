@@ -4,7 +4,6 @@ Program Bash sederhana yang dibuat untuk melakukan reverse shell melalui koneksi
 
 ```
 apt-get update
-apt-get install shc
 apt-get install netcat
 apt-get install git
 git clone https://github.com/fixploit03/reverse-shell-tcp/
